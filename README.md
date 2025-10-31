@@ -1,6 +1,6 @@
 <p align="center">
-  <img src="public/icons/icon-192x192.png" alt="MoeMail Logo" width="100" height="100">
-  <h1 align="center">MoeMail</h1>
+  <img src="public/icons/icon-192x192.png" alt="Hello E-mail Logo" width="100" height="100">
+  <h1 align="center">Hello E-mail</h1>
 </p>
 
 <p align="center">
@@ -169,7 +169,7 @@ pnpm dlx tsx ./scripts/deploy/index.ts
    - `AUTH_GITHUB_ID`: GitHub OAuth App ID
    - `AUTH_GITHUB_SECRET`: GitHub OAuth App Secret
    - `AUTH_SECRET`: NextAuth Secret，用来加密 session，请设置一个随机字符串
-   - `CUSTOM_DOMAIN`: 网站自定义域名，用于访问 MoeMail (可选， 如果不填, 则会使用 Cloudflare Pages 默认域名)
+   - `CUSTOM_DOMAIN`: 网站自定义域名，用于访问 Hello E-mail (可选， 如果不填, 则会使用 Cloudflare Pages 默认域名)
    - `PROJECT_NAME`: Pages 项目名 （可选，如果不填，则为 moemail） 
    - `DATABASE_NAME`: D1 数据库名称 (可选，如果不填，则为 moemail-db)
    - `KV_NAMESPACE_NAME`: Cloudflare KV namespace 名称，用于存储网站配置 （可选，如果不填，则为 moemail-kv）
@@ -201,7 +201,7 @@ pnpm dlx tsx ./scripts/deploy/index.ts
 
 ## 邮箱域名配置
 
-在 MoeMail 个人中心页面，可以配置网站的邮箱域名，支持多域名配置，多个域名用逗号分隔
+在 Hello E-mail 个人中心页面，可以配置网站的邮箱域名，支持多域名配置，多个域名用逗号分隔
 ![邮箱域名配置](https://pic.otaku.ren/20241227/AQAD88AxG67zeVd-.jpg "邮箱域名配置")
 
 ### Cloudflare 邮件路由配置
@@ -296,7 +296,7 @@ pnpm dlx tsx ./scripts/deploy/index.ts
 
 ## 发件功能
 
-MoeMail 支持使用临时邮箱发送邮件，基于 [Resend](https://resend.com/) 服务。
+Hello E-mail 支持使用临时邮箱发送邮件，基于 [Resend](https://resend.com/) 服务。
 
 ### 功能特性
 
@@ -323,7 +323,7 @@ MoeMail 支持使用临时邮箱发送邮件，基于 [Resend](https://resend.co
    - 复制 API Key 供后续配置使用
 
 2. **配置发件服务**
-   - 皇帝角色登录 MoeMail
+   - 皇帝角色登录 Hello E-mail
    - 进入个人中心页面
    - 在"Resend 发件服务配置"部分：
      - 启用发件服务开关
@@ -826,7 +826,7 @@ console.log('分享链接:', `https://your-domain.com/shared/message/${data.toke
       关注公众号，了解更多项目进展以及AI，区块链，独立开发资讯
     </td>
     <td>
-      添加微信，备注 "MoeMail" 拉你进微信交流群
+      添加微信，备注 "Hello E-mail" 拉你进微信交流群
     </td>
   </tr>
 </table>
